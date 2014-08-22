@@ -4,12 +4,13 @@ get_address_by_ip,通过ip查找物理位置
 基于纯真ip数据库
 
 ##使用方法：
-
+```python
 from get_address_by_ip import get_address
 
-get_address("8.8.8.8")
+print get_address("8.8.8.8")
 
 134744072	134744072	美国,加利福尼亚州圣克拉拉县山景市谷歌公司DNS服务器
+```
 
 ##文件说明：
 
